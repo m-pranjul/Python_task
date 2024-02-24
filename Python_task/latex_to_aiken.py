@@ -3,7 +3,6 @@ import subprocess
 
 def convert(tex_filename):
     filename, ext = os.path.splitext(tex_filename)
-    # the corresponding PDF filename
     pdf_filename = filename + '.pdf'
     # pdflatex helps in rendering the content of Latex file
     subprocess.run(['pdflatex', '-interaction=nonstopmode', tex_filename])
