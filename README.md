@@ -7,4 +7,4 @@
 1. Run the Main.py file
 
 ## Requirements
-1. Miktex software is installed in Operating System.
+1. Miktex software must be installed in Operating System.
